@@ -4,7 +4,7 @@
   "description": "",
   "main": "TemperatureTracker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tempTrackerTest": "echo 'Error: no test specified' && exit 1"
   },
   "keywords": [],
   "author": "skdkim",

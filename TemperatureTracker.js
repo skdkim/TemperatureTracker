@@ -8,5 +8,4 @@ class TemperatureTracker{
   }
 }
 
-let temp = new TemperatureTracker(26374);
-console.log(temp.getTemp());
+module.exports = TemperatureTracker;
