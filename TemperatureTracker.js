@@ -18,7 +18,7 @@ class TemperatureTracker{
   }
 
   getMin(){
-    if (!this.maxTemp){
+    if (!this.minTemp){
       throw new Error ('no temperatures added');
     }
 
@@ -26,7 +26,7 @@ class TemperatureTracker{
   }
 
   getMean(){
-    if (!this.maxTemp){
+    if (!this.tempSums){
       throw new Error ('no temperatures added');
     }
 
@@ -34,10 +34,10 @@ class TemperatureTracker{
   }
 
   getMode(){
-    if (!this.maxTemp){
+    if (!this.modeTemp){
       throw new Error ('no temperatures added');
     }
-    
+
     return this.modeTemp;
   }
 
